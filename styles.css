@@ -1,0 +1,144 @@
+.navgrid {
+    display: grid;
+    height: 200px;
+    width: 500px;
+    grid-template: 1 fr 2fr / repeat(6, 1fr);
+    border: 5px forestgreen solid; 
+    margin: auto;   
+}
+
+.navheading {
+    grid-area: 1 / 1 / span 1 / span 6;
+    font-size: 2em;
+}
+
+.A,
+.B,
+.C,
+.D,
+.E,
+.F {
+    grid-row: 2;
+}
+
+.A {
+    grid-column: 1;
+}
+
+.B {
+    grid-column: 2;
+}
+
+.C {
+    grid-column: 3;
+}
+
+.D {
+    grid-column: 4;
+}
+
+.E {
+    grid-column: 5;
+}
+
+.F {
+    grid-column: 6;
+}
+
+.navchoice,
+.navheading {
+    padding: 20px 0 0 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: skyblue;
+}
+
+
+p { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#marketvid {
+    margin: 25px 0 50px 0;
+    text-align: center;
+
+}
+
+.articlepic {
+    padding: 30px 0 15px 0;
+    position: relative;
+    right: 30px
+}
+
+.artistpic {
+    padding: 50px 0 0 0;
+}
+
+#blackpage {
+    padding: 0 100px 0 0;
+    position: relative;
+    right: 55px;
+      
+}
+
+th {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 30px;        
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 70px 20px;
+    position: relative;
+    right: 120px;
+
+}
+
+figcaption {
+    text-align: center;
+    margin: 0 0 50px 25px;
+}
+
+footer {
+    background-color: skyblue;
+    position: relative;
+    bottom: 0px;
+    width: 400px;
+    text-align: center;
+    border: 5px forestgreen solid;
+    margin: auto; 
+    top: 100px;
+    bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.footchoice {
+    margin: 10px 0;
+}
+
+#journey {
+    position: relative;
+    bottom: 35px;
+}
+
+
