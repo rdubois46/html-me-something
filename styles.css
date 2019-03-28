@@ -76,12 +76,6 @@ h2 {
     text-align: center;
 }
 
-#marketvid {
-    margin: 25px 0 50px 0;
-    text-align: center;
-
-}
-
 .articlepic {
     padding: 30px 0 15px 0;
     position: relative;
@@ -89,14 +83,13 @@ h2 {
 }
 
 .artistpic {
-    padding: 50px 0 0 0;
+    border: 10px forestgreen solid;    
 }
 
-#blackpage {
-    padding: 0 100px 0 0;
-    position: relative;
-    right: 55px;
-      
+.logopic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
 }
 
 th {
@@ -110,9 +103,17 @@ table {
     border-collapse: separate;
     border-spacing: 70px 20px;
     position: relative;
-    right: 120px;
+    right: 150px;
 
 }
+
+hr {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10px;
+    background-color: forestgreen;
+    }
 
 figcaption {
     text-align: center;
@@ -139,6 +140,17 @@ footer {
 #journey {
     position: relative;
     bottom: 35px;
+}
+
+#blackpage {
+    padding: 0 100px 0 0;
+    position: relative;
+    right: 55px;      
+}
+
+#marketvid {
+    margin: 25px 0 50px 0;
+    text-align: center;
 }
 
 
